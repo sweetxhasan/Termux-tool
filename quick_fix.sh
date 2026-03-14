@@ -18,7 +18,7 @@ echo -e "\033[1;32m[1/3] Installing nest_asyncio...\033[0m"
 pip install nest_asyncio
 
 # Navigate to tool directory
-cd ~/tg-post-reaction-tool 2>/dev/null || mkdir -p ~/tg-post-reaction-tool && cd ~/tg-post-reaction-tool
+cd ~/Termux-tool 2>/dev/null || mkdir -p ~/Termux-tool && cd ~/Termux-tool
 
 # Create fixed config if not exists
 if [ ! -f "config.json" ]; then
